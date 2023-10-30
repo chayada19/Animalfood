@@ -10,7 +10,6 @@
           <p>&emsp;<B>ประเภทสัตว์</B> : <input class="input" type="text" v-model="animalfood.typeanimal" /></p>
           <p>&emsp;<B>ยี่ห้อ</B> : <input class="input" type="text" v-model="animalfood.brand" /></p>
           <p>&emsp;<B>สูตรอาหาร</B> : <input class="input" type="text" v-model="animalfood.foodrecipes" /></p>
-          <p>&emsp;<B>เลขทะเบียน</B> : <input class="input" type="text" v-model="animalfood.registrationnumber" /></p>
           <p>&emsp;<B>ชนิดของอาหาร</B> : <input class="input" type="text" v-model="animalfood.type" /></p>
           <p>&emsp;<B>ปริมาณ</B> : <input class="input" type="text" v-model="animalfood.weight" /> kg</p>
           <p>&emsp;<B>ส่วนประกอบ</B> : <input class="input" type="text" v-model="animalfood.component" /></p>
@@ -18,7 +17,7 @@
           <p>&emsp;<B>วันหมดอายุ</B> : <input class="input" type="text" v-model="animalfood.expirationdate" /></p>
           <p>&emsp;<B>การจัดเก็บ</B> : <input class="input" type="text" v-model="animalfood.storage" /></p>
           <p>&emsp;<B>ราคา</B> : <input class="input" type="text" v-model="animalfood.price" /> บาท</p>
-          <p>&emsp;<B>อุณหภูมิจัดเก็บ</B> : <input class="input" type="text" v-model="animalfood.temperature" /></p>
+          <p>&emsp;<B>อุณหภูมิจัดเก็บ</B> : <input class="input" type="text" v-model="animalfood.temperature" /> องศาเซลเซียส</p>
           <center>
             <button class="button type1" type="submit">edit animalfood</button>
             <button class="button type1" onclick="history.back()" value="ย้อนกลับ">ยกเลิก</button>
@@ -32,15 +31,14 @@
       <p>&emsp;<B>ประเภทสัตว์</B> : {{ animalfood.typeanimal }}</p>
       <p>&emsp;<B>ยี่ห้อ</B> : {{ animalfood.brand }}</p>
       <p>&emsp;<B>สูตรอาหาร</B> : {{ animalfood.foodrecipes }}</p>
-      <p>&emsp;<B>เลขทะเบียน</B> : {{ animalfood.registrationnumber }}</p>
       <p>&emsp;<B>ชนิดของอาหาร</B> : {{ animalfood.type }}</p>
-      <p>&emsp;<B>ปริมาณ</B> : {{ animalfood.weight }}</p>
+      <p>&emsp;<B>ปริมาณ</B> : {{ animalfood.weight }} kg</p>
       <p>&emsp;<B>ส่วนประกอบ</B> : {{ animalfood.component }}</p>
       <p>&emsp;<B>คุณค่าทางโภชนาการ</B> : {{ animalfood.nutritionalvalue }}</p>
       <p>&emsp;<B>วันหมดอายุ</B> : {{ animalfood.expirationdate }}</p>
       <p>&emsp;<B>การจัดเก็บ</B> : {{ animalfood.storage }}</p>
-      <p>&emsp;<B>ราคา</B> : {{ animalfood.price }}</p>
-      <p>&emsp;<B>อุณหภูมิ</B> : {{ animalfood.temperature }}</p>
+      <p>&emsp;<B>ราคา</B> : {{ animalfood.price }} บาท</p>
+      <p>&emsp;<B>อุณหภูมิ</B> : {{ animalfood.temperature }} องศาเซลเซียส</p>
     </div>
   </div>
 </template>

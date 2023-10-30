@@ -9,15 +9,14 @@
         <p>&emsp;<B>ประเภทสัตว์</B> : {{ animalfood.typeanimal }}</p>
         <p>&emsp;<B>ยี่ห้อ</B> : {{ animalfood.brand }}</p>
         <p>&emsp;<B>สูตรอาหาร</B> : {{ animalfood.foodrecipes }}</p>
-        <p>&emsp;<B>เลขทะเบียน</B> : {{ animalfood.registrationnumber }}</p>
         <p>&emsp;<B>ชนิดของอาหาร</B> : {{ animalfood.type }}</p>
-        <p>&emsp;<B>ปริมาณ</B> : {{ animalfood.weight }}</p>
+        <p>&emsp;<B>ปริมาณ</B> : {{ animalfood.weight }} kg</p>
         <p>&emsp;<B>ส่วนประกอบ</B> : {{ animalfood.component }}</p>
         <p>&emsp;<B>คุณค่าทางโภชนาการ</B> : {{ animalfood.nutritionalvalue }}</p>
         <p>&emsp;<B>วันหมดอายุ</B> : {{ animalfood.expirationdate }}</p>
         <p>&emsp;<B>การจัดเก็บ</B> : {{ animalfood.storage }}</p>
-        <p>&emsp;<B>ราคา</B> : {{ animalfood.price }}</p>
-        <p>&emsp;<B>อุณหภูมิ</B> : {{ animalfood.temperature }}</p>
+        <p>&emsp;<B>ราคา</B> : {{ animalfood.price }} บาท</p>
+        <p>&emsp;<B>อุณหภูมิ</B> : {{ animalfood.temperature }} องศาเซลเซียส</p>
         <center> <button class="button type1" onclick="history.back()" value="ย้อนกลับ">ย้อนกลับ</button></center>
     </div></div></div></div>
   

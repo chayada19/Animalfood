@@ -17,7 +17,7 @@
           <p>&emsp;<B>ประเภทสัตว์</B> : {{ animalfood.typeanimal }}</p>
           <p>&emsp;<B>ยี่ห้อ</B> : {{ animalfood.brand }}</p>
           <p>&emsp;<B>สูตรอาหาร</B> : {{ animalfood.foodrecipes }}</p>
-          <p>&emsp;<B>ปริมาณ</B> : {{ animalfood.weight }}</p>
+          <p>&emsp;<B>ปริมาณ</B> : {{ animalfood.weight }} kg</p>
           <p>&emsp;<B>ราคา</B> : {{ animalfood.price }} บาท</p>
           <center>
             <p>
